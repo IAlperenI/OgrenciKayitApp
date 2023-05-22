@@ -126,6 +126,7 @@ def d1():
                 else:
                     r1.place(x=300, y=280)
                     b2.place(x=400, y=310)
+                    
                     b2.config(text="Uyarıyı sil", command=sil)
                     b2.place(x=400, y=450)
                     b2.config(text="Öğrenci bilgilerini sil", command=sil2)
